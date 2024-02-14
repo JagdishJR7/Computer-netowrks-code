@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4th pract:- Form</title>
+</head>
+<body>
+    <!-- Question :- . Write an HTML program to design a form which should allow entering your
+    personal data
+    (Hint: make use of text field, password field, e-mail, lists, radio buttons, checkboxes,
+    submit button) -->
+
+    <!-- <h2>Personal data form</h2> -->
+    <form action="">
+        <h2>Step1: Your details</h2>
+        <label for="first_name"> Name: </label>
+        <input type="text" id="name" name="name"><br>
+        <br>
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" ><br>
+        <br>
+
+        <label for="phone">Phone: </label>
+        <input type="number" name="number"> <br>
+        <br>
+
+        <h2>Step2: Delivery address</h2>
+        <!-- <label for="address">Address</label> -->
+        Address <textarea type="text" name="address" rows="5" cols="50"></textarea><br>
+        <br>
+
+        <label for="postcpde">postcpde: </label>
+        <input type="number" id="nummber" name="postcode"><br>
+        <br>
+
+        <label for="country">country</label>
+        <input type="text" name="text"><br>
+        <br>
+
+        <h2>Step3: Card details</h2>
+
+
+        <label for="gender">cards type: </label><br><br>
+        <input type="radio" id="male" name="gender" value="male">Visa
+        <input type="radio" id="female" name="gender" value="male">AmEx
+        <input type="radio" id="other" name="gender" value="male">Mastercard <br>
+        <br>
+
+        <label for="">Card Number: </label>
+        <input type="number" id="number" name="number">
+        <br><br>
+
+        <label for="">Security code : </label>
+        <input type="number" name="number">
+        <br><br>
+
+        <label for="">Name on card :</label>
+        <input type="text" name="" id="" ><br>
+        <br>
+        
+        <button>BUY IT!</button>
+    </form>
+
+</body>
+</html>

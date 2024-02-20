@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form</title>
+    <style>
+        #submit{
+            border-radius: 10px;
+            border:1px solid rgb(70, 64, 64);
+            padding: 3px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>My feedback form</h2>
+    <form action="">
+        <ul>
+            <ul style="list-style-type: disc;">
+                <li>
+                    <label for="">Name: </label>
+                    <input type="text" name="name"><br>
+                </li><br>
+
+                <li>
+                    <label for="">Email: </label>
+                    <input type="email" name="email" value="email">
+                </li><br>
+
+                <li>
+                    <label for="">Password: </label>
+                    <input type="password" name="password"><br>
+                </li>
+
+
+                <li>
+                    <p>Please check all the emotions that apply to you:</p>
+                </li>
+                <ul style="list-style-type: disc;">
+                    <li>Angry <input type="checkbox" name="Angry"></li>
+                    <li>Sad <input type="checkbox" name="Angry"></li>
+                    <li>Happy <input type="checkbox" name="Angry"></li>
+                    <li>Ambivalent <input type="checkbox" name="Angry"></li>
+                </ul>
+
+                <li>
+                    <p>How satsified were you with our service?</p>
+                </li>
+                <ul style="list-style-type: disc;">
+                    <li>Very satisfied <input type="radio" name="service" value="Very satisfied"></li>
+                    <li>Satisfied <input type="radio" name="service" value="satisfied"></li>
+                    <li>Didn't care <input type="radio" name="service" id="didn't care"></li>
+                    <li>Dissatisfied <input type="radio" name="service" id="dissatisfied"></li>
+                    <li>Very dissatisfied <input type="radio" name="service" value="very dissatisfied"></li>
+                </ul>
+
+                <li>
+                    Furter comments:
+                    <textarea name="" id="" cols="30" rows="4"></textarea>
+                </li><br>
+
+                <li>Bio Photo :
+                    <input type="file" id="photo" name="photo" accept="image/*">
+                </li><br>
+
+                <!-- <li>
+                <label for="location">Select a location:</label>
+                <select id="location" name="location">
+                  <option value="New York">New York</option>
+                  <option value="London">London</option>
+                  <option value="Paris">Paris</option>
+                 // Add more options as needed //
+                </select>
+            </li> -->
+
+                <li>
+                    <label for="location">Search for a location:</label>
+                    <input type="text" id="location" name="location" placeholder="Enter a location">
+                </li>
+            </ul>
+        </ul>
+        <ul>
+            <li>
+                <input type="submit" name="submit" id="submit" value="submit">
+            </li>
+        </ul>
+
+    </form>
+</body>
+
+</html>

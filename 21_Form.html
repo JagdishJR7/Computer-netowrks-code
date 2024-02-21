@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form practical</title>
+</head>
+<body>
+    <h2>Customer visiter data form</h2>
+    <form action="">
+        <label for="">Enter your name :</label>
+        <input type="text" name="name" ><br><br>
+
+        <label for="">Enter your phone no. :</label>
+        <input type="number" name="Pnumber" max="10"><br><br>
+
+        <label for="">Which day would you prefer for purchasing :</label>
+        <!-- <br> -->
+        <select name="" id="">
+            <option value="monday">Monday</option>
+            <option value="tueday">Tueday</option>
+            <option value="wednesday">Wednesday</option>
+            <option value="thursday">Thursday</option>
+            <option value="friday">Friday</option>
+            <option value="saturday">Saturday</option>
+            <option value="sunday">Sunday</option>
+        </select>
+        <br><br>
+
+        <label for="">Favourite item :</label>
+        <ul style="list-style-type: disc;">
+            <li>Sports <input type="checkbox" name="Sports"></li>
+            <li>Reading Book <input type="checkbox" name="Book"></li>
+            <li>Traveling <input type="checkbox" name="Traveling"></li>
+            <li>Adventeres <input type="checkbox" name="Adventeres"></li>
+        </ul>
+
+        <label for="">Any suggestion that you would like to give us ;</label>
+        <textarea name="suggestion" id="suggestion" cols="50" rows="5"></textarea>
+        <br><br>
+
+        <input type="submit" name="submit" value="submit">
+        <input type="reset" name="reset" value="reset">
+    </form>
+</body>
+</html>
